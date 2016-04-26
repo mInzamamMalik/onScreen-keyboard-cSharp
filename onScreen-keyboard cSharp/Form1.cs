@@ -12,13 +12,19 @@ namespace onScreen_keyboard_cSharp
 {
     public partial class Form1 : Form
     {
-        const int WS_EX_NOACTIVATE = 0x08000000;
+        
 
         public Form1()
         {
             InitializeComponent();
             
         }
+
+        /// <summary>
+        ///  this peice of code will make my form "never active or focused", i dont know how but its working :-)
+        ///  End
+        /// </summary>
+        const int WS_EX_NOACTIVATE = 0x08000000;
         protected override CreateParams CreateParams
         {
             get
@@ -28,10 +34,23 @@ namespace onScreen_keyboard_cSharp
                 return param;
             }
         }
+        /// <summary>
+        ///  End
+        /// </summary>        
 
-        private void button1_Click(object sender, EventArgs e)
+
+        bool capsLock = false;
+
+        private void BUTTON_CLICK(object sender, EventArgs e)
         {
-            System.Windows.Forms.SendKeys.SendWait("G");
+            Button thisButton = (Button)sender;
+            System.Windows.Forms.SendKeys.SendWait(thisButton.Text);
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            capsLock = !capsLock;
+            button35.Text = "Caps lock " + capsLock.ToString();         
         }
     }
 }
