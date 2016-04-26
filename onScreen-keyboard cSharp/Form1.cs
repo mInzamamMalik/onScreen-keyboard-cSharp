@@ -20,10 +20,8 @@ namespace onScreen_keyboard_cSharp
             
         }
 
-        /// <summary>
-        ///  this peice of code will make my form "never active or focused", i dont know how but its working :-)
-        ///  End
-        /// </summary>
+       
+        ///  this peice of code will make my form "never active or focused", i dont know how but its working :-)       
         const int WS_EX_NOACTIVATE = 0x08000000;
         protected override CreateParams CreateParams
         {
@@ -33,24 +31,37 @@ namespace onScreen_keyboard_cSharp
                 param.ExStyle |= WS_EX_NOACTIVATE;
                 return param;
             }
-        }
-        /// <summary>
-        ///  End
-        /// </summary>        
+        } ///  End
 
 
         bool capsLock = false;
 
         private void BUTTON_CLICK(object sender, EventArgs e)
         {
-            Button thisButton = (Button)sender;
-            System.Windows.Forms.SendKeys.SendWait(thisButton.Text);
+            try
+            {
+                Button thisButton = (Button)sender;
+                if (capsLock)
+                {
+                    System.Windows.Forms.SendKeys.SendWait("{" + thisButton.Text.ToUpper() + "}");
+                }
+                else
+                {
+                    System.Windows.Forms.SendKeys.SendWait("{" + thisButton.Text.ToLower() + "}");
+                }
+            }
+            catch (Exception )
+            {
+               
+            }
+                    
         }
 
         private void button35_Click(object sender, EventArgs e)
         {
             capsLock = !capsLock;
-            button35.Text = "Caps lock " + capsLock.ToString();         
+            button35.Text = "Caps lock is " + capsLock.ToString();         
         }
+
     }
 }
