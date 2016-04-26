@@ -64,7 +64,6 @@
             this.button13 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
             this.button38 = new System.Windows.Forms.Button();
             this.button39 = new System.Windows.Forms.Button();
             this.button41 = new System.Windows.Forms.Button();
@@ -81,6 +80,7 @@
             this.button53 = new System.Windows.Forms.Button();
             this.button54 = new System.Windows.Forms.Button();
             this.button55 = new System.Windows.Forms.Button();
+            this.button40 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -451,7 +451,7 @@
             this.button13.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.Location = new System.Drawing.Point(220, 248);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(330, 50);
+            this.button13.Size = new System.Drawing.Size(616, 50);
             this.button13.TabIndex = 33;
             this.button13.Text = " ";
             this.button13.UseVisualStyleBackColor = true;
@@ -460,9 +460,9 @@
             // button35
             // 
             this.button35.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button35.Location = new System.Drawing.Point(52, 248);
+            this.button35.Location = new System.Drawing.Point(12, 248);
             this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(162, 50);
+            this.button35.Size = new System.Drawing.Size(202, 50);
             this.button35.TabIndex = 34;
             this.button35.Text = "Caps lock is False";
             this.button35.UseVisualStyleBackColor = true;
@@ -478,17 +478,6 @@
             this.button36.Text = "Enter";
             this.button36.UseVisualStyleBackColor = true;
             this.button36.Click += new System.EventHandler(this.BUTTON_CLICK);
-            // 
-            // button37
-            // 
-            this.button37.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button37.Location = new System.Drawing.Point(718, 248);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(118, 50);
-            this.button37.TabIndex = 36;
-            this.button37.Text = "Ctrl";
-            this.button37.UseVisualStyleBackColor = true;
-            this.button37.Click += new System.EventHandler(this.BUTTON_CLICK);
             // 
             // button38
             // 
@@ -526,7 +515,7 @@
             // button42
             // 
             this.button42.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button42.Location = new System.Drawing.Point(8, 12);
+            this.button42.Location = new System.Drawing.Point(8, 14);
             this.button42.Name = "button42";
             this.button42.Size = new System.Drawing.Size(50, 50);
             this.button42.TabIndex = 54;
@@ -537,7 +526,7 @@
             // button44
             // 
             this.button44.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button44.Location = new System.Drawing.Point(763, 12);
+            this.button44.Location = new System.Drawing.Point(763, 14);
             this.button44.Name = "button44";
             this.button44.Size = new System.Drawing.Size(50, 50);
             this.button44.TabIndex = 52;
@@ -548,7 +537,7 @@
             // button45
             // 
             this.button45.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button45.Location = new System.Drawing.Point(707, 12);
+            this.button45.Location = new System.Drawing.Point(707, 14);
             this.button45.Name = "button45";
             this.button45.Size = new System.Drawing.Size(50, 50);
             this.button45.TabIndex = 51;
@@ -559,7 +548,7 @@
             // button46
             // 
             this.button46.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button46.Location = new System.Drawing.Point(651, 12);
+            this.button46.Location = new System.Drawing.Point(651, 14);
             this.button46.Name = "button46";
             this.button46.Size = new System.Drawing.Size(50, 50);
             this.button46.TabIndex = 50;
@@ -570,7 +559,7 @@
             // button47
             // 
             this.button47.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button47.Location = new System.Drawing.Point(595, 12);
+            this.button47.Location = new System.Drawing.Point(595, 14);
             this.button47.Name = "button47";
             this.button47.Size = new System.Drawing.Size(50, 50);
             this.button47.TabIndex = 49;
@@ -581,7 +570,7 @@
             // button48
             // 
             this.button48.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button48.Location = new System.Drawing.Point(512, 12);
+            this.button48.Location = new System.Drawing.Point(512, 14);
             this.button48.Name = "button48";
             this.button48.Size = new System.Drawing.Size(50, 50);
             this.button48.TabIndex = 48;
@@ -592,7 +581,7 @@
             // button49
             // 
             this.button49.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button49.Location = new System.Drawing.Point(456, 12);
+            this.button49.Location = new System.Drawing.Point(456, 14);
             this.button49.Name = "button49";
             this.button49.Size = new System.Drawing.Size(50, 50);
             this.button49.TabIndex = 47;
@@ -603,7 +592,7 @@
             // button50
             // 
             this.button50.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button50.Location = new System.Drawing.Point(400, 12);
+            this.button50.Location = new System.Drawing.Point(400, 14);
             this.button50.Name = "button50";
             this.button50.Size = new System.Drawing.Size(50, 50);
             this.button50.TabIndex = 46;
@@ -614,7 +603,7 @@
             // button51
             // 
             this.button51.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button51.Location = new System.Drawing.Point(344, 12);
+            this.button51.Location = new System.Drawing.Point(344, 14);
             this.button51.Name = "button51";
             this.button51.Size = new System.Drawing.Size(50, 50);
             this.button51.TabIndex = 45;
@@ -625,7 +614,7 @@
             // button52
             // 
             this.button52.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button52.Location = new System.Drawing.Point(259, 12);
+            this.button52.Location = new System.Drawing.Point(259, 14);
             this.button52.Name = "button52";
             this.button52.Size = new System.Drawing.Size(50, 50);
             this.button52.TabIndex = 44;
@@ -636,7 +625,7 @@
             // button53
             // 
             this.button53.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button53.Location = new System.Drawing.Point(203, 12);
+            this.button53.Location = new System.Drawing.Point(203, 14);
             this.button53.Name = "button53";
             this.button53.Size = new System.Drawing.Size(50, 50);
             this.button53.TabIndex = 43;
@@ -647,7 +636,7 @@
             // button54
             // 
             this.button54.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button54.Location = new System.Drawing.Point(147, 12);
+            this.button54.Location = new System.Drawing.Point(147, 14);
             this.button54.Name = "button54";
             this.button54.Size = new System.Drawing.Size(50, 50);
             this.button54.TabIndex = 42;
@@ -658,7 +647,7 @@
             // button55
             // 
             this.button55.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button55.Location = new System.Drawing.Point(91, 12);
+            this.button55.Location = new System.Drawing.Point(91, 14);
             this.button55.Name = "button55";
             this.button55.Size = new System.Drawing.Size(50, 50);
             this.button55.TabIndex = 41;
@@ -666,11 +655,23 @@
             this.button55.UseVisualStyleBackColor = true;
             this.button55.Click += new System.EventHandler(this.BUTTON_CLICK);
             // 
+            // button40
+            // 
+            this.button40.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button40.Location = new System.Drawing.Point(8, 80);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(50, 50);
+            this.button40.TabIndex = 55;
+            this.button40.Text = "`";
+            this.button40.UseVisualStyleBackColor = true;
+            this.button40.Click += new System.EventHandler(this.BUTTON_CLICK);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(869, 309);
+            this.Controls.Add(this.button40);
             this.Controls.Add(this.button42);
             this.Controls.Add(this.button44);
             this.Controls.Add(this.button45);
@@ -687,7 +688,6 @@
             this.Controls.Add(this.button41);
             this.Controls.Add(this.button39);
             this.Controls.Add(this.button38);
-            this.Controls.Add(this.button37);
             this.Controls.Add(this.button36);
             this.Controls.Add(this.button35);
             this.Controls.Add(this.button13);
@@ -724,6 +724,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.Text = "Form1";
             this.TopMost = true;
@@ -770,7 +771,6 @@
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button35;
         private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Button button37;
         private System.Windows.Forms.Button button38;
         private System.Windows.Forms.Button button39;
         private System.Windows.Forms.Button button41;
@@ -787,6 +787,7 @@
         private System.Windows.Forms.Button button53;
         private System.Windows.Forms.Button button54;
         private System.Windows.Forms.Button button55;
+        private System.Windows.Forms.Button button40;
     }
 }
 

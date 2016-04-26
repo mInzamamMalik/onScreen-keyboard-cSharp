@@ -50,9 +50,11 @@ namespace onScreen_keyboard_cSharp
                     System.Windows.Forms.SendKeys.SendWait("{" + thisButton.Text.ToLower() + "}");
                 }
             }
-            catch (Exception )
+            catch (Exception)
             {
-               
+                //***do nothing on exception***
+                //some time when system busy and
+                //we press to many buttons at a time it a throwing an exception
             }
                     
         }
