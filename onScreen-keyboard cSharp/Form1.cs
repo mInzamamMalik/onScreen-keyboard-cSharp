@@ -71,11 +71,12 @@ namespace onScreen_keyboard_cSharp
                     System.Windows.Forms.SendKeys.SendWait("{" + thisButton.Text.ToLower() + "}");
                 }
             }
-            catch (Exception)
+            catch (Exception a)
             {
                 //***do nothing on exception***
                 //some time when system busy and
                 //we press to many buttons at a time it a throwing an exception
+                MessageBox.Show(a.Message);
             }
                     
         }
@@ -103,6 +104,12 @@ namespace onScreen_keyboard_cSharp
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void WinKey(object sender, EventArgs e)
+        {
+            System.Windows.Forms.SendKeys.SendWait("^{Esc}");
 
         }
     }

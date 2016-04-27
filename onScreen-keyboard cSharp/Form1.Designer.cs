@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -109,6 +110,11 @@
             this.button79 = new System.Windows.Forms.Button();
             this.button80 = new System.Windows.Forms.Button();
             this.button81 = new System.Windows.Forms.Button();
+            this.button82 = new System.Windows.Forms.Button();
+            this.button83 = new System.Windows.Forms.Button();
+            this.button84 = new System.Windows.Forms.Button();
+            this.button85 = new System.Windows.Forms.Button();
+            this.button86 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -477,9 +483,9 @@
             // button13
             // 
             this.button13.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(234, 306);
+            this.button13.Location = new System.Drawing.Point(253, 306);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(318, 50);
+            this.button13.Size = new System.Drawing.Size(342, 50);
             this.button13.TabIndex = 33;
             this.button13.Text = " ";
             this.button13.UseVisualStyleBackColor = true;
@@ -917,7 +923,7 @@
             // button75
             // 
             this.button75.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button75.Location = new System.Drawing.Point(153, 306);
+            this.button75.Location = new System.Drawing.Point(172, 306);
             this.button75.Name = "button75";
             this.button75.Size = new System.Drawing.Size(75, 50);
             this.button75.TabIndex = 78;
@@ -928,7 +934,7 @@
             // button76
             // 
             this.button76.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button76.Location = new System.Drawing.Point(558, 306);
+            this.button76.Location = new System.Drawing.Point(601, 306);
             this.button76.Name = "button76";
             this.button76.Size = new System.Drawing.Size(75, 50);
             this.button76.TabIndex = 79;
@@ -1002,11 +1008,71 @@
             this.button81.UseVisualStyleBackColor = true;
             this.button81.Click += new System.EventHandler(this.BUTTON_CLICK);
             // 
+            // button82
+            // 
+            this.button82.Font = new System.Drawing.Font("Calibri Light", 9.75F);
+            this.button82.Location = new System.Drawing.Point(866, 12);
+            this.button82.Name = "button82";
+            this.button82.Size = new System.Drawing.Size(65, 50);
+            this.button82.TabIndex = 88;
+            this.button82.Text = "PRTSC";
+            this.button82.UseVisualStyleBackColor = true;
+            this.button82.Click += new System.EventHandler(this.BUTTON_CLICK);
+            // 
+            // button83
+            // 
+            this.button83.Font = new System.Drawing.Font("Calibri Light", 9.75F);
+            this.button83.Location = new System.Drawing.Point(1008, 12);
+            this.button83.Name = "button83";
+            this.button83.Size = new System.Drawing.Size(65, 50);
+            this.button83.TabIndex = 87;
+            this.button83.Text = "BREAK";
+            this.button83.UseVisualStyleBackColor = true;
+            this.button83.Click += new System.EventHandler(this.BUTTON_CLICK);
+            // 
+            // button84
+            // 
+            this.button84.Font = new System.Drawing.Font("Calibri Light", 9.75F);
+            this.button84.Location = new System.Drawing.Point(937, 12);
+            this.button84.Name = "button84";
+            this.button84.Size = new System.Drawing.Size(65, 50);
+            this.button84.TabIndex = 86;
+            this.button84.Text = "SCROLLLOCK";
+            this.button84.UseVisualStyleBackColor = true;
+            this.button84.Click += new System.EventHandler(this.BUTTON_CLICK);
+            // 
+            // button85
+            // 
+            this.button85.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button85.Location = new System.Drawing.Point(682, 306);
+            this.button85.Name = "button85";
+            this.button85.Size = new System.Drawing.Size(75, 50);
+            this.button85.TabIndex = 90;
+            this.button85.Text = "Win";
+            this.button85.UseVisualStyleBackColor = true;
+            this.button85.Click += new System.EventHandler(this.WinKey);
+            // 
+            // button86
+            // 
+            this.button86.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button86.Location = new System.Drawing.Point(91, 306);
+            this.button86.Name = "button86";
+            this.button86.Size = new System.Drawing.Size(75, 50);
+            this.button86.TabIndex = 91;
+            this.button86.Text = "Win";
+            this.button86.UseVisualStyleBackColor = true;
+            this.button86.Click += new System.EventHandler(this.WinKey);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1113, 421);
+            this.ClientSize = new System.Drawing.Size(1113, 366);
+            this.Controls.Add(this.button86);
+            this.Controls.Add(this.button85);
+            this.Controls.Add(this.button82);
+            this.Controls.Add(this.button83);
+            this.Controls.Add(this.button84);
             this.Controls.Add(this.button80);
             this.Controls.Add(this.button81);
             this.Controls.Add(this.button78);
@@ -1089,8 +1155,9 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Inzamam Malik";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Click += new System.EventHandler(this.Ctrl);
@@ -1181,6 +1248,11 @@
         private System.Windows.Forms.Button button79;
         private System.Windows.Forms.Button button80;
         private System.Windows.Forms.Button button81;
+        private System.Windows.Forms.Button button82;
+        private System.Windows.Forms.Button button83;
+        private System.Windows.Forms.Button button84;
+        private System.Windows.Forms.Button button85;
+        private System.Windows.Forms.Button button86;
     }
 }
 
