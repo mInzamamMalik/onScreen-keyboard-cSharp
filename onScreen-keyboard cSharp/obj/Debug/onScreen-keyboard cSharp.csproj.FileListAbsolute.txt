@@ -6,6 +6,8 @@ C:\Users\205\Documents\Visual Studio 2015\Projects\onScreen-keyboard cSharp\onSc
 C:\Users\205\Documents\Visual Studio 2015\Projects\onScreen-keyboard cSharp\onScreen-keyboard cSharp\obj\Debug\onScreen_keyboard_cSharp.Form1.resources
 C:\Users\205\Documents\Visual Studio 2015\Projects\onScreen-keyboard cSharp\onScreen-keyboard cSharp\obj\Debug\onScreen_keyboard_cSharp.Properties.Resources.resources
 C:\Users\205\Documents\Visual Studio 2015\Projects\onScreen-keyboard cSharp\onScreen-keyboard cSharp\obj\Debug\onScreen-keyboard cSharp.csproj.GenerateResource.Cache
-C:\Users\205\Documents\Visual Studio 2015\Projects\onScreen-keyboard cSharp\onScreen-keyboard cSharp\bin\Debug\onScreen-keyboard cSharp.exe.CodeAnalysisLog.xml
-C:\Users\205\Documents\Visual Studio 2015\Projects\onScreen-keyboard cSharp\onScreen-keyboard cSharp\bin\Debug\onScreen-keyboard cSharp.exe.lastcodeanalysissucceeded
 C:\Users\205\Documents\Visual Studio 2015\Projects\onScreen-keyboard cSharp\onScreen-keyboard cSharp\obj\Debug\onScreen-keyboard cSharp.csprojResolveAssemblyReference.cache
+C:\Users\205\Documents\Visual Studio 2015\Projects\onScreen-keyboard cSharp\onScreen-keyboard cSharp\bin\Debug\onScreen-keyboard cSharp.exe.manifest
+C:\Users\205\Documents\Visual Studio 2015\Projects\onScreen-keyboard cSharp\onScreen-keyboard cSharp\bin\Debug\onScreen-keyboard cSharp.application
+C:\Users\205\Documents\Visual Studio 2015\Projects\onScreen-keyboard cSharp\onScreen-keyboard cSharp\obj\Debug\onScreen-keyboard cSharp.exe.manifest
+C:\Users\205\Documents\Visual Studio 2015\Projects\onScreen-keyboard cSharp\onScreen-keyboard cSharp\obj\Debug\onScreen-keyboard cSharp.application

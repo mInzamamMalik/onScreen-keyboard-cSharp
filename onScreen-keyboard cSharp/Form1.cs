@@ -35,13 +35,34 @@ namespace onScreen_keyboard_cSharp
 
 
         bool capsLock = false;
+        bool shift = false;
+        bool ctrl = false;
+        bool alt = false;
 
         private void BUTTON_CLICK(object sender, EventArgs e)
         {
             try
             {
                 Button thisButton = (Button)sender;
-                if (capsLock)
+                if (ctrl)
+                {                   
+                    System.Windows.Forms.SendKeys.SendWait("^{" + thisButton.Text+"}");
+                    ctrl = false;
+
+                }
+                else if (alt)
+                {
+
+                    System.Windows.Forms.SendKeys.SendWait("%{" + thisButton.Text+"}");
+                    alt = false;
+                }
+                else if (shift)
+                {
+
+                    System.Windows.Forms.SendKeys.SendWait("+{" + thisButton.Text+"}");
+                    shift = false;
+                }
+                else if (capsLock)
                 {
                     System.Windows.Forms.SendKeys.SendWait("{" + thisButton.Text.ToUpper() + "}");
                 }
@@ -59,11 +80,30 @@ namespace onScreen_keyboard_cSharp
                     
         }
 
-        private void button35_Click(object sender, EventArgs e)
+       
+        private void Ctrl(object sender, EventArgs e)
         {
-            capsLock = !capsLock;
-            button35.Text = "Caps lock is " + capsLock.ToString();         
+            ctrl = !ctrl;            
         }
 
+        private void Alt(object sender, EventArgs e)
+        {
+            alt = !alt;
+        }
+
+        private void Shift(object sender, EventArgs e)
+        {
+            shift = !shift;
+        }
+
+        private void capslock(object sender, EventArgs e)
+        {
+            capsLock = !capsLock;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
